@@ -1,0 +1,43 @@
+﻿@model System.Collections.Generic.List<Core.Application.Contracts.DataTransferObjects.AccountDto>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Accounts</h2>
+<a asp-action="Create">Create new Account</a>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Balance
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.ActionLink("Deposit", "Deposit", new { id = item.Id })
+            </td>
+            <td>
+                @Html.ActionLink("Withdraw", "Withdraw", new { id = item.Id })
+            </td>
+            <td>
+                @Html.ActionLink("Close", "Close", new { id = item.Id })
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

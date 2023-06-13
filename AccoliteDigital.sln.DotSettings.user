@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5be4388a_002D9303_002D4893_002Da544_002Db5e2e3a4ea74/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserMustBeCreatedSuccessful" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.UserServiceTest.UserMustBeCreatedSuccessful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccountShouldBeAddSuccessful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccountShouldBeAddSuccessful(1,100)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccountShouldBeAddSuccessful(2,300)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_UserDoNotExist&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_UserDoNotExist(1,100)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_UserDoNotExist(2,300)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_AmountIsLessThat100&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_AmountIsLessThat100(1,90)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.NewAccount_ShouldNotBe_Add_When_AmountIsLessThat100(2,80)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldBe_Delete&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Deposit_Successful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Deposit_Successful(1,100,200)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Deposit_Successful(2,300,150)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Deposit_When_AmountIsMoreThat10000&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Deposit_When_AmountIsMoreThat10000(1,100,20000)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Deposit_When_AmountIsMoreThat10000(2,300,10001)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Withdraw_Successful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Withdraw_Successful(1,1000,200)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_Should_Withdraw_Successful(2,3000,150)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_AmountIsMoreThat90Percentage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_AmountIsMoreThat90Percentage(1,100,91)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_AmountIsMoreThat90Percentage(2,300,288)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_BalanceWillBeLessThat100&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_BalanceWillBeLessThat100(1,100,91)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5B4F6BF0-4C7B-4C87-9B5B-57E659BE637E::net7.0::UnitTest.Application.AccountServiceTest.Account_ShouldNot_Withdraw_When_BalanceWillBeLessThat100(2,300,288)&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
